@@ -44,6 +44,6 @@ options = trainingOptions('sgdm', ...                    % Define the optimiser
                           'WorkerLoad',4);           % Save model intermediate results
 % Training models
 net311Hxy4_8bit = trainNetwork(trainingDataSet, netLayers, options);      % Models start training
-save net311Hxyc4_8bit;
+save net311Hxy4_8bit;
 figure
 plot(netLayers)
